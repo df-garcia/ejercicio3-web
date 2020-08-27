@@ -1,0 +1,64 @@
+.jumbotron {
+  /* background-image: url("https://images.squarespace-cdn.com/content/v1/57b79a9744024338a66efc5e/1513379621146-AVRD3LRCTBZPDBTGL05T/ke17ZwdGBToddI8pDm48kI8ilMVa_g9Y1CtW8ihjXDYUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYwL8IeDg6_3B-BRuF4nNrNcQkVuAT7tdErd0wQFEGFSnHFIkt9YahOH7alx23KHjz3xAcdJLuMGUx71tDNDeEgoZK8QgUh0BAeUn_raYPGGzA/Because+Geek+Banner+-+Hats.png?format=2500w"); */
+  /*background-size: cover;*/
+  height: 100%;
+  color: white;
+  background-color: transparent;
+  padding-top: 100px;
+
+  /*margin-bottom: 0px;
+  margin-top: 0px;
+  margin-top: 20px;
+  padding-bottom: 179px;*/
+}
+
+.navbar-dark {
+  /* background-image: url("https://images.squarespace-cdn.com/content/v1/57b79a9744024338a66efc5e/1513379621146-AVRD3LRCTBZPDBTGL05T/ke17ZwdGBToddI8pDm48kI8ilMVa_g9Y1CtW8ihjXDYUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYwL8IeDg6_3B-BRuF4nNrNcQkVuAT7tdErd0wQFEGFSnHFIkt9YahOH7alx23KHjz3xAcdJLuMGUx71tDNDeEgoZK8QgUh0BAeUn_raYPGGzA/Because+Geek+Banner+-+Hats.png?format=2500w"); */
+  background-color: transparent;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.container-fluid {
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#banner1 {
+  background-image: url("https://images.squarespace-cdn.com/content/v1/57b79a9744024338a66efc5e/1513379621146-AVRD3LRCTBZPDBTGL05T/ke17ZwdGBToddI8pDm48kI8ilMVa_g9Y1CtW8ihjXDYUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYwL8IeDg6_3B-BRuF4nNrNcQkVuAT7tdErd0wQFEGFSnHFIkt9YahOH7alx23KHjz3xAcdJLuMGUx71tDNDeEgoZK8QgUh0BAeUn_raYPGGzA/Because+Geek+Banner+-+Hats.png?format=2500w");
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: white;
+}
+
+.fa:hover {
+  opacity: 0.7;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #0e76a8;
+}
+
+.fa-github {
+  background: #333;
+}
