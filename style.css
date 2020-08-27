@@ -1,19 +1,11 @@
 .jumbotron {
-  /* background-image: url("https://images.squarespace-cdn.com/content/v1/57b79a9744024338a66efc5e/1513379621146-AVRD3LRCTBZPDBTGL05T/ke17ZwdGBToddI8pDm48kI8ilMVa_g9Y1CtW8ihjXDYUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYwL8IeDg6_3B-BRuF4nNrNcQkVuAT7tdErd0wQFEGFSnHFIkt9YahOH7alx23KHjz3xAcdJLuMGUx71tDNDeEgoZK8QgUh0BAeUn_raYPGGzA/Because+Geek+Banner+-+Hats.png?format=2500w"); */
-  /*background-size: cover;*/
   height: 100%;
   color: white;
   background-color: transparent;
   padding-top: 100px;
-
-  /*margin-bottom: 0px;
-  margin-top: 0px;
-  margin-top: 20px;
-  padding-bottom: 179px;*/
 }
 
 .navbar-dark {
-  /* background-image: url("https://images.squarespace-cdn.com/content/v1/57b79a9744024338a66efc5e/1513379621146-AVRD3LRCTBZPDBTGL05T/ke17ZwdGBToddI8pDm48kI8ilMVa_g9Y1CtW8ihjXDYUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYwL8IeDg6_3B-BRuF4nNrNcQkVuAT7tdErd0wQFEGFSnHFIkt9YahOH7alx23KHjz3xAcdJLuMGUx71tDNDeEgoZK8QgUh0BAeUn_raYPGGzA/Because+Geek+Banner+-+Hats.png?format=2500w"); */
   background-color: transparent;
   background: rgba(0, 0, 0, 0.4);
 }
@@ -65,24 +57,35 @@ body {
   background: #333;
 }
 
-.profile{
-    margin-left: 80px;
-    margin-right: 80px;
+.profile {
+  margin-left: 80px;
+  margin-right: 80px;
 }
 
 #confusion {
-    width: 100%;
-    max-height: 200px;
-    object-fit: cover;
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
 }
 
 #jumbofooter {
-    background-image: url("https://images.squarespace-cdn.com/content/v1/57b79a9744024338a66efc5e/1513379621146-AVRD3LRCTBZPDBTGL05T/ke17ZwdGBToddI8pDm48kI8ilMVa_g9Y1CtW8ihjXDYUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYwL8IeDg6_3B-BRuF4nNrNcQkVuAT7tdErd0wQFEGFSnHFIkt9YahOH7alx23KHjz3xAcdJLuMGUx71tDNDeEgoZK8QgUh0BAeUn_raYPGGzA/Because+Geek+Banner+-+Hats.png?format=2500w");
-    background-size: cover;
-    height: 70px;
-    overflow: hidden;
-    padding-top: 20px;
-    color: white;
-  }
+  background-image: url("https://images.squarespace-cdn.com/content/v1/57b79a9744024338a66efc5e/1513379621146-AVRD3LRCTBZPDBTGL05T/ke17ZwdGBToddI8pDm48kI8ilMVa_g9Y1CtW8ihjXDYUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYwL8IeDg6_3B-BRuF4nNrNcQkVuAT7tdErd0wQFEGFSnHFIkt9YahOH7alx23KHjz3xAcdJLuMGUx71tDNDeEgoZK8QgUh0BAeUn_raYPGGzA/Because+Geek+Banner+-+Hats.png?format=2500w");
+  background-size: cover;
+  height: 70px;
+  overflow: hidden;
+  padding-top: 20px;
+  color: white;
+}
 
+a {
+  color: white;
+}
 
+a:hover {
+  color: white;
+  text-decoration-line: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
