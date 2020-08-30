@@ -1,3 +1,15 @@
+/*
+Este archivo es sencillo, por lo tanto se observa una buena indentación y manejo del 
+código CSS. Sin embargo, se recomienda dividir por secciones (ej: banner) para identificar
+las modificaciones de los elementos por sección.
+
+Por otro lado, se respetan los atributos que se usan y sus valores. Esto permite darle una apariencia
+y experiencia de usuario agradable a la página. 
+
+Finalmente, se recomienda incluir las modificaciones generales como lo es body  al inicio del documento.
+
+*/
+
 .jumbotron {
   height: 100%;
   color: white;
