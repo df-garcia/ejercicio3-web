@@ -31,8 +31,10 @@
         <div class="col-12">
           <!-- Navbar & banner -->
           <nav class="navbar navbar-expand-lg navbar-dark">
-            <a class="navbar-brand" href=""
-              ><img
+            <a class="navbar-brand" href="">
+              <!--COMENTARIO: Sería mejor si la imagen estuviera en la carpeta principal del proyecto, para que 
+              la carga de la página en el navegador fuera más rápida-->
+              <img
                 src="https://avatars2.githubusercontent.com/u/53870195?s=400&u=e597cbfb90029e7083ed80acfdafdf7d5d20c72a&v=4"
                 class="d-inline-block align-top rounded"
                 alt="Webpage logo"
@@ -110,6 +112,7 @@
               <br />
               <br />
               <div class="text-center justify-content-center">
+                <!--COMENTARIO: Me parece que el id utilizado es preciso y permite entender el código con facilidad-->
                 <a href="#aboutme">
                   <svg
                     width="10em"
@@ -140,6 +143,9 @@
       </div>
     </div>
     <!-- Main content -->
+
+    <!--COMENTARIO: A pesar de que en el código se comenta que este div es la sección principal de la página, sería mejor si 
+    se utilizara una etiqueta <main> para que fuera diferenciable de las demás secciones-->
     <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
       <div class="container-fluid" id="main-content">
         <div class="row" id="aboutme">
@@ -202,6 +208,8 @@
             <div class="container">
               <div class="row text-center justify-content-center">
                 <div class="col-6 col-md-3 col-lg-2">
+                  <!--COMENTARIO: Pienso que sería mejor que estos logos se tuvieran en la carpeta principal del proyecto,
+                  para que la carga de la página sea mucho más rápida en el navegador-->
                   <img
                     src="https://img.icons8.com/color/96/000000/java-coffee-cup-logo.png"
                     alt="Java logo"
@@ -292,9 +300,7 @@
                       alt="Wonderful Quotes project mockup"
                     />
                     <div class="card-body">
-                      <h5 class="card-title text-center">
-                        Wonderful Quotes
-                      </h5>
+                      <h5 class="card-title text-center">Wonderful Quotes</h5>
                       <p class="card-text text-center">
                         Project developed in Udemy's web development course. Vue
                         was used as a frontend development framework
@@ -351,9 +357,7 @@
                       alt="Monster Slayer project mockup"
                     />
                     <div class="card-body">
-                      <h5 class="card-title text-center">
-                        Monster Slayer
-                      </h5>
+                      <h5 class="card-title text-center">Monster Slayer</h5>
                       <p class="card-text text-center">
                         Project developed in Udemy's web development course. Vue
                         was used as a frontend development framework
@@ -383,9 +387,7 @@
                       alt="Chiper project mockup"
                     />
                     <div class="card-body">
-                      <h5 class="card-title text-center">
-                        Chiper.co
-                      </h5>
+                      <h5 class="card-title text-center">Chiper.co</h5>
                       <p class="card-text text-center">
                         Project developed in Software Architecture course.
                         Django and Spring Boot were used as a backend
@@ -414,9 +416,7 @@
                       allowfullscreen
                     ></iframe>
                     <div class="card-body">
-                      <h5 class="card-title text-center">
-                        Canem
-                      </h5>
+                      <h5 class="card-title text-center">Canem</h5>
                       <p class="card-text text-center">
                         Project developed in Software Architecture course.
                         Django and Spring Boot were used as a backend
@@ -521,13 +521,13 @@
         </div>
         <br />
         <!-- Footer -->
+        <!--COMENTARIO: A pesar de que en el código se comenta que este div corresponde al footer de la página, sería mejor 
+        utilizar la etiqueta <div> para que fuera más fácil de identificar y diferenciar del resto de secciones.-->
         <div class="row text-center justify-content-center">
           <div class="col-12">
             <div class="jumbotron-fluid" id="jumbofooter">
               <div class="container">
-                <p class="lead">
-                  Daniel García &copy; 2020
-                </p>
+                <p class="lead">Daniel García &copy; 2020</p>
               </div>
             </div>
           </div>
@@ -552,3 +552,9 @@
     ></script>
   </body>
 </html>
+
+<!--COMENTARIOS GENERALES HTML: Las secciones lógicas están bien definidas, son diferenciables y el código es legible. 
+Sin embargo, me parece que el uso de etiquetas <div> que remplazan las etiquetas <main> y <footer>
+dificultan la revisión del código. De igual forma, no se hace uso de una etiqueta 
+<header> para diferenciar el encabezado de la página del resto de secciones. El diseño de la página es bueno, y la navegación
+es bastante consistente. También se hace uso de una tipografía adecuada y los colores son adecuados también.-->

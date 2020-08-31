@@ -62,6 +62,7 @@ body {
   margin-right: 80px;
 }
 
+/*Esta regla no es clara para identificar el elemento al que se le aplican los estilos*/
 #confusion {
   width: 100%;
   max-height: 200px;
@@ -89,3 +90,5 @@ a:hover {
 html {
   scroll-behavior: smooth;
 }
+
+/*COMENTARIOS GENERALES CSS: Aparte de #confusion,  las reglas son claras y el código es legible.*/
