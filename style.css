@@ -1,9 +1,3 @@
-/*
-  Buena identación y claridad.
-  Por legibilidad hubiera sido mejor añadir comentarios con las secciones de código a las que
-  aplica cada estilo. Pero en general todo muy bien.
-*/
-
 .jumbotron {
   height: 100%;
   color: white;
@@ -94,11 +88,4 @@ a:hover {
 
 html {
   scroll-behavior: smooth;
-}
-
-footer.real-footer {
-  /*
-  Por dar un ejemplo de lo que mencioné al final del otro archivo.
-  */
-  padding-top: 3rem;
 }
